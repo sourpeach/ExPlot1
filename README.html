@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title></title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<p>#Exploratory Data Analysis: Course Project 1</p>
+
+<p>Instructions for the project:  <a href="https://github.com/rdpeng/ExData_Plotting1">https://github.com/rdpeng/ExData_Plotting1</a></p>
+
+<p>Recreating 4 graphs shown in above link </p>
+
+<p><em>Reading and the subsetting the original data to the data needed for plotting was done in subsetdate.R</em></p>
+
+<p><strong>Code files to the 4 graphs:</strong></p>
+
+<p>plot1.R - plot1.png</p>
+
+<p>plot2.R - plot2.png</p>
+
+<p>plot3.R - plot3.png</p>
+
+<p>plot4.R - plot4.png</p>
+
+<p><strong>Code explanation:</strong></p>
+
+<ol>
+<li><p>Download data from <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip</a></p></li>
+<li><p>Read table between 2007-02-01 and 2007-02-02</p></li>
+<li><p>Initialize graphic device</p></li>
+<li><p>Plot graph </p>
+
+<ol>
+<li>plot1 - histogram with x = Global Active Power</li>
+<li>plot2 - convert date into POSIXct class then plot out Global Active Power according to date</li>
+<li>plot3 - plot lines for Sub_metering_1, Sub_metering_2, and Sub_metering_3, add legend </li>
+<li>plot4 - set layout, then plot out 4 plots including plots from plot2 and plot3</li>
+</ol></li>
+<li><p>Close off or copy png file to apropriate names</p></li>
+</ol>
+
+</body>
+
+</html>
+
